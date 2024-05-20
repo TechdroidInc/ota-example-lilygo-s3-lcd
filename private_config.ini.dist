@@ -1,0 +1,7 @@
+[wifi]
+ssid = mySSID
+password = myPassword
+
+[otabin]
+api_token = otabin_api_key
+upload_server_url = https://app.otabin.com
