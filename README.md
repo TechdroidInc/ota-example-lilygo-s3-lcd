@@ -1,21 +1,21 @@
 ## Otabin Example Project
 
-## Getting started:
+#### Getting started:
 
 1. Copy private config:
-  ```
-    cp private_config.ini.dist private_config.ini
-  ``` 
+    ```
+        cp private_config.ini.dist private_config.ini
+    ``` 
 2. Update private_config.ini with your wifi credentials
 3. Edit the otabin section in private_config.ini to your credentials:
-  ```
-  [otabin]
-  api_token = [your otabin api token]
-  upload_server_url = https://app.otabin.com
-  ```
+    ```
+    [otabin]
+    api_token = your otabin api token
+    upload_server_url = https://app.otabin.com
+    ```
 4. Update the hardware section in platform.ini with your version, HW UUID and Hardware Name
-  ```
-  custom_prog_version = 1.5.0
-  custom_hw_uuid =  5d7aba61-690e-4842-ba79-7638b224343f
-  custom_prog_board = esp32-s3-rev-a  
-  ```
+    ```
+    custom_prog_version = 1.5.0
+    custom_hw_uuid =  5d7aba61-690e-4842-ba79-7638b224343f
+    custom_prog_board = esp32-s3-rev-a  
+    ```
